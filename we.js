@@ -1,4 +1,4 @@
-const apikey="42e39b3c87f86296b1ac84d31ab0e2a4";
+const apikey=" ";
 const apiurl="https://api.openweathermap.org/data/2.5/weather?units=metric&q=";
 const search=document.querySelector(".search input");
 const searchBtn=document.querySelector(".search button");
@@ -44,3 +44,4 @@ async function checkWeather(city)
 searchBtn.addEventListener("click",()=>{
     checkWeather(search.value);
 })
+
